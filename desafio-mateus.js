@@ -44,7 +44,7 @@ function MenuPrincipal() {
 function fazerPedido() {
   let continuar = "sim";
 
-  while (continuar.toLowerCase() === "sim") {
+  while (continuar.toLowerCase() === true) {
     let nome = prompt(
       `Qual o nome do produto que deseja comprar na ${lojaAtual}? `
     );
